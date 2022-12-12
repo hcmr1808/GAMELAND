@@ -9,8 +9,12 @@ body{
     font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
     background-color: #461c547e;
     
-    
-    
+}
+
+h2 {
+
+    color: red;
+
 }
 
 
@@ -20,20 +24,20 @@ body{
     text-align: center;
     font-size: 2em;
     background-color: #010713;
-    text-align: center;
     color: #ccc;
     
 }
 
 .principal{
-    background-color: #ffffff;
+    background-color: #f8efef;
     border-radius: 10px;
     box-shadow: 3px 2px 5px #a30396bb;
     width: 400px;
-    padding: 30px;
+    padding: 40px;
     height: 400px;
     margin: auto;
     text-align: center;
+    
     
 }
 
@@ -43,18 +47,47 @@ body{
     box-shadow: 3px 2px 5px #a30396bb;
     width: 700px;
     padding: 30px;
-    height: 700px;
+    height: 750px;
     margin: auto;
     text-align: center;
     
 }
 
+.adddiv {
+    
+    background-color: #A30396;
+    cursor: pointer;
+    display: inline-block;
+    color: #ccc;
+    padding: 6px;
+    width: 200px;
+    border-radius: 9px;
+    margin-right: 5px;
+       
+}
+
+.fa-solid.fa-user-plus{
+
+    color: white;
+    
+
+}
+
+.fas.fa-plus{
+    color: rgb(204, 204, 204);
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
 #img1{
+    
+    
     position: relative;
-    padding: 10px;
-    width: 150px;
-    right: 450px;
-   
+    padding: 15px;        
+    width: 250px;
+    
+       
+       
 }
 
 button{
@@ -67,6 +100,18 @@ button{
     font-size: 15px;
     transition: all .3s ease;
     
+}
+
+b{
+
+    background-color: #fd0a0a;
+    color: white;
+    padding: 5px 8px;
+    border: 1px solid #0e020d;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
 }
 
 button:hover{
@@ -88,9 +133,12 @@ input:hover{
 }
 
 img{
-    padding: 8px;
+    padding: 10px;
 }
 
 footer {
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
 }
+

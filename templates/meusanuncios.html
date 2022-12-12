@@ -19,6 +19,7 @@
     <h2>Meus Anuncios</h2></div>
     
         <ul style="font-size: 18px">
+        {% if posts.count > 0 %}
         {% for post in posts %}
         <li>
             {{ post.titulo }} - {{ post.Preço }} 
@@ -31,6 +32,9 @@
             </a>)
         </li>
         {% endfor %}
+        {% else %}
+        <label>Nenhum anúncio!</label>
+        {% endif %}
         </ul>
 
     <br>
